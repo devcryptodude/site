@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.82053631.chunk.css",
-    "main.js": "/static/js/main.d33d31ff.chunk.js",
-    "main.js.map": "/static/js/main.d33d31ff.chunk.js.map",
+    "main.css": "/static/css/main.3046d8e1.chunk.css",
+    "main.js": "/static/js/main.889c64fb.chunk.js",
+    "main.js.map": "/static/js/main.889c64fb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0d696e8a.js",
     "runtime-main.js.map": "/static/js/runtime-main.0d696e8a.js.map",
     "static/css/2.335c1574.chunk.css": "/static/css/2.335c1574.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.b817d4c9.chunk.js.map": "/static/js/2.b817d4c9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.335c1574.chunk.css.map": "/static/css/2.335c1574.chunk.css.map",
-    "static/css/main.82053631.chunk.css.map": "/static/css/main.82053631.chunk.css.map",
+    "static/css/main.3046d8e1.chunk.css.map": "/static/css/main.3046d8e1.chunk.css.map",
     "static/js/2.b817d4c9.chunk.js.LICENSE.txt": "/static/js/2.b817d4c9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/RedHatText-Bold.79f1187c.ttf",
     "static/media/discord.fcb1b31f.png": "/static/media/discord.fcb1b31f.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.0d696e8a.js",
     "static/css/2.335c1574.chunk.css",
     "static/js/2.b817d4c9.chunk.js",
-    "static/css/main.82053631.chunk.css",
-    "static/js/main.d33d31ff.chunk.js"
+    "static/css/main.3046d8e1.chunk.css",
+    "static/js/main.889c64fb.chunk.js"
   ]
 }
