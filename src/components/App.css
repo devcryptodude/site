@@ -1,0 +1,141 @@
+/* examples/custom-animation.css */
+
+@keyframes customEnterOverlayAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveOverlayAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes customEnterModalAnimation {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveModalAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+  }
+}
+
+@font-face {
+    font-family: 'Red Hat Text';
+    src: local('Red Hat Text'), url('../fonts/RedHatText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+    background: black;
+    margin: 0;
+    font-family: "Montserrat", monotone;
+    font-size: 16px;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  }
+  
+  ::-webkit-scrollbar {
+    background: #c3c3c3;
+    box-shadow: 10px 0px 0px 0px #000000 inset, -2px 0px 6px 0px #6e685c96 inset;
+    border: 1.5px solid black;
+    width: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #232323;
+    border: 1.5px solid black;
+  }
+
+.container__rewards {
+    position: relative;
+}
+
+.container__rewards::before {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:7px; /*1*/
+    border:1px solid transparent; /*2*/
+    background:linear-gradient(to left, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%) border-box; /*3*/
+    -webkit-mask: /*4*/
+       linear-gradient(#fff 0 0) padding-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; /*5'*/
+    mask-composite: exclude; /*5*/
+    z-index: -2;
+    border-radius: 7px;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+#root {
+    min-height: calc(100vh - 89px);
+}
+
+.container__rewards::after {
+    content: "";
+    color: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+   top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: -1;
+    border-radius: 7px;
+}
+
+
+.customOverlay {
+  background-color: rgba(36, 123, 160, 0.7) !important;
+}
+.customModal {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Red Hat Text';
+  max-width: 200px;
+  width: 28%;
+  border-radius:8px; /*1*/
+  border:1px solid transparent; /*2*/
+  background-color: rgba(236, 183, 160, 0.9) !important;
+}
+
+
