@@ -155,7 +155,7 @@ async Reverse(address) {
                   <NavContainer>
                     <LeftNav>
                      <StyledNav>
-                          <StyledLinkH to="/#header">
+                          <StyledLinkH to="/">
                           <TextLogo>DirtyPanties<span>NFT</span></TextLogo>
                           </StyledLinkH>
                       </StyledNav>
@@ -212,8 +212,7 @@ const NavContainer = styled.div`
 `
 
 const TextLogo = styled.div`
-  font-family: 'Red Hat Text';
-  font-size: 8px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
@@ -245,7 +244,6 @@ const StyledLinkH = styled(Link)`
   letter-spacing: 1px;
   text-transform: uppercase;
   color: white;
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 7px;
@@ -292,8 +290,8 @@ const SocialLogo = styled.a`
 `
 
 const ImgWrapper = styled.img`
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     display: inline-block;
     margin: 0.2em;
     @media only screen and (min-width: 768px) {

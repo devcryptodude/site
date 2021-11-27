@@ -35,6 +35,13 @@
 }
 
 @font-face {
+    font-family: 'Aurora';
+    src: local('Aurora'), url('../fonts/AuroraGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Red Hat Text';
     src: local('Red Hat Text'), url('../fonts/RedHatText-Bold.ttf') format('truetype');
     font-weight: bold;
@@ -58,7 +65,7 @@
 body {
     background: black;
     margin: 0;
-    font-family: "Montserrat", monotone;
+    font-family: "Aurora", monotone;
     font-size: 16px;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
