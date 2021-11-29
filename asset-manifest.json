@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.3046d8e1.chunk.css",
-    "main.js": "/static/js/main.3dff2911.chunk.js",
-    "main.js.map": "/static/js/main.3dff2911.chunk.js.map",
+    "main.js": "/static/js/main.dc9b77ba.chunk.js",
+    "main.js.map": "/static/js/main.dc9b77ba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0d696e8a.js",
     "runtime-main.js.map": "/static/js/runtime-main.0d696e8a.js.map",
     "static/css/2.335c1574.chunk.css": "/static/css/2.335c1574.chunk.css",
-    "static/js/2.104ebcf9.chunk.js": "/static/js/2.104ebcf9.chunk.js",
-    "static/js/2.104ebcf9.chunk.js.map": "/static/js/2.104ebcf9.chunk.js.map",
+    "static/js/2.762c68e2.chunk.js": "/static/js/2.762c68e2.chunk.js",
+    "static/js/2.762c68e2.chunk.js.map": "/static/js/2.762c68e2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.335c1574.chunk.css.map": "/static/css/2.335c1574.chunk.css.map",
     "static/css/main.3046d8e1.chunk.css.map": "/static/css/main.3046d8e1.chunk.css.map",
-    "static/js/2.104ebcf9.chunk.js.LICENSE.txt": "/static/js/2.104ebcf9.chunk.js.LICENSE.txt",
+    "static/js/2.762c68e2.chunk.js.LICENSE.txt": "/static/js/2.762c68e2.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/RedHatText-Bold.79f1187c.ttf",
     "static/media/discord.fcb1b31f.png": "/static/media/discord.fcb1b31f.png",
-    "static/media/image-1500.271960ea.png": "/static/media/image-1500.271960ea.png",
-    "static/media/image-mobile.5f957831.png": "/static/media/image-mobile.5f957831.png",
-    "static/media/insta.06911ade.png": "/static/media/insta.06911ade.png",
-    "static/media/twitter.3ebcc182.png": "/static/media/twitter.3ebcc182.png"
+    "static/media/image-1500.4b3c51ef.png": "/static/media/image-1500.4b3c51ef.png",
+    "static/media/image-mobile.bed8d0fc.png": "/static/media/image-mobile.bed8d0fc.png",
+    "static/media/insta-white.f7b3dff3.png": "/static/media/insta-white.f7b3dff3.png",
+    "static/media/twitter-white.27cda7bd.png": "/static/media/twitter-white.27cda7bd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d696e8a.js",
     "static/css/2.335c1574.chunk.css",
-    "static/js/2.104ebcf9.chunk.js",
+    "static/js/2.762c68e2.chunk.js",
     "static/css/main.3046d8e1.chunk.css",
-    "static/js/main.3dff2911.chunk.js"
+    "static/js/main.dc9b77ba.chunk.js"
   ]
 }
